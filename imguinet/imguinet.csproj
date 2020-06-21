@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CppSharp" Version="0.10.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CppSharp">
+      <HintPath>..\CppSharp-0.10.4-vs2017-x64\CppSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CppSharp.AST">
+      <HintPath>..\CppSharp-0.10.4-vs2017-x64\CppSharp.AST.dll</HintPath>
+    </Reference>
+    <Reference Include="CppSharp.Generator">
+      <HintPath>..\CppSharp-0.10.4-vs2017-x64\CppSharp.Generator.dll</HintPath>
+    </Reference>
+    <Reference Include="CppSharp.Parser">
+      <HintPath>..\CppSharp-0.10.4-vs2017-x64\CppSharp.Parser.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
